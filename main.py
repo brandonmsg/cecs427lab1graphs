@@ -21,6 +21,16 @@ def write_graph(graph, file): # saves graph to file
     nx.write_gml(graph, file) # networkx function for writing graph into file
     return 0
 
+def create_graph(graph): # creates graph
+    # implement bfs here some how
+    nx.draw(graph) # networkx function for creating graph
+    plt.show() # displays graph with function from matplotlib
+    return 0
+
+def BFS(graph, node_1):
+    
+    return 0
+
 def main():
     
     return 0
